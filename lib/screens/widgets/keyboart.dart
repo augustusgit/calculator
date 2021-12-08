@@ -30,8 +30,8 @@ class Keyboard extends StatelessWidget {
         children: <Widget>[
           rowButton([
             ButtonId.ac,
-            ButtonId.openParantes,
-            ButtonId.closeParantes,
+            ButtonId.plusMinus,
+            ButtonId.percent,
             ButtonId.division,
           ]),
           rowButton([
@@ -41,21 +41,21 @@ class Keyboard extends StatelessWidget {
             ButtonId.multiplication,
           ]),
           rowButton([
-            ButtonId.four,
-            ButtonId.five,
             ButtonId.six,
+            ButtonId.five,
+            ButtonId.four,
             ButtonId.minus,
           ]),
           rowButton([
             ButtonId.one,
-            ButtonId.tow,
+            ButtonId.two,
             ButtonId.three,
             ButtonId.plus,
           ]),
           rowButton([
-            ButtonId.point,
-            ButtonId.zero,
             ButtonId.backspace,
+            ButtonId.zero,
+            ButtonId.point,
             ButtonId.equal,
           ]),
         ],

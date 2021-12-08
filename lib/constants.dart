@@ -1,8 +1,8 @@
-const kTitle = 'Light Calculator';
+const kTitle = 'Augustus Calculator';
 
 class ButtonId {
   static const one = '1';
-  static const tow = '2';
+  static const two = '2';
   static const three = '3';
   static const four = '4';
   static const five = '5';
@@ -21,4 +21,7 @@ class ButtonId {
   static const ac = 'AC';
   static const openParantes = '(';
   static const closeParantes = ')';
+  static const plusMinus = '+/-';
+  static const percent = '%';
+
 }

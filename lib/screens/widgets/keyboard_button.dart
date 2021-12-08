@@ -34,15 +34,15 @@ class KeyboardButton extends StatelessWidget {
 Widget setChild(String id) {
   if (id == ButtonId.backspace)
     return Icon(
-      Icons.backspace_outlined,
-      color: Color(0xFFF57B7B),
+      Icons.rotate_right,
+      color: Colors.white,
     );
 
   if (id == ButtonId.ac)
     return Text(
       id,
       style: TextStyle(
-        color: Color(0xFFF57B7B),
+        color: Color(0xFF26F4CE),
         fontSize: 22.0,
         fontWeight: FontWeight.bold,
       ),
@@ -58,10 +58,17 @@ Widget setChild(String id) {
       ),
     );
 
-  return Text(
+  return id == ButtonId.plusMinus || id == ButtonId.percent ? Text(
     id,
     style: TextStyle(
       color: Color(0xFF26F4CE),
+      fontSize: 28.0,
+      fontWeight: FontWeight.bold,
+    ),
+  ) : Text(
+    id,
+    style: TextStyle(
+      color: Color(0xFFF57B7B),
       fontSize: 28.0,
       fontWeight: FontWeight.bold,
     ),

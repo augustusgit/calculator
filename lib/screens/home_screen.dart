@@ -3,6 +3,7 @@ import 'package:light_calculator/calculator.dart';
 import 'package:light_calculator/constants.dart';
 import 'package:light_calculator/screens/widgets/displayer.dart';
 import 'package:light_calculator/screens/widgets/keyboart.dart';
+import 'package:light_calculator/screens/widgets/set_mode.dart';
 import 'package:light_calculator/utils/utils.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -13,6 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _primaryDisplayerText = '';
   String _secondaryDisplayerText = '';
+
 
   void buttonPressed(String id) {
     setState(
@@ -58,6 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
         child: Column(
           children: <Widget>[
+            // SetMode(),
             Expanded(
               child: Displayer(
                   primaryText: _primaryDisplayerText,

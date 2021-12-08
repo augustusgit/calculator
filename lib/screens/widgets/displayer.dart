@@ -13,23 +13,33 @@ class Displayer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          SizedBox(
-            height: 80,
-            child: SingleChildScrollView(
-              reverse: true,
-              child: Text(
-                primaryText,
-                maxLines: 1000,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(color: Colors.white, fontSize: 36),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              SizedBox(
+                height: 80,
+                child: SingleChildScrollView(
+                  reverse: true,
+                  child: Text(
+                    primaryText,
+                    maxLines: 1000,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(color: Colors.white, fontSize: 36),
+                  ),
+                ),
               ),
-            ),
+            ],
           ),
           SizedBox(height: 10),
-          Text(
-            secondaryText,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(color: Colors.grey, fontSize: 18),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Text(
+                secondaryText,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(color: Colors.grey, fontSize: 18),
+              ),
+            ],
           ),
         ],
       ),
