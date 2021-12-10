@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
         child: Column(
           children: <Widget>[
-            // SetMode(),
+            SetMode(),
             Expanded(
               child: Displayer(
                   primaryText: _primaryDisplayerText,

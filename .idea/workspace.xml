@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb41242-a557-4c49-a636-84b05e0edc3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/widgets/set_mode.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/widgets/displayer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/widgets/displayer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/widgets/keyboard_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/widgets/keyboard_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/widgets/keyboart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/widgets/keyboart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/widgets/set_mode.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/widgets/set_mode.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

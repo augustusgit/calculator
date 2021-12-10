@@ -21,7 +21,8 @@ class Keyboard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Color(0xFF292D36),
+        // color: Color(0xFF292D36),
+        color: Theme.of(context).dividerColor,
         borderRadius: BorderRadius.vertical(
           top: Radius.circular(32),
         ),

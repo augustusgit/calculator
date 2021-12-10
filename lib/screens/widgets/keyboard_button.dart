@@ -19,23 +19,23 @@ class KeyboardButton extends StatelessWidget {
           onLongPress: onPressed,
           style: ElevatedButton.styleFrom(
             elevation: 0.0,
-            primary: Color(0xFF272B33),
+            primary: Theme.of(context).hintColor,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16.0),
             ),
           ),
-          child: setChild(id),
+          child: setChild(context, id),
         ),
       ),
     );
   }
 }
 
-Widget setChild(String id) {
+Widget setChild(BuildContext context, String id) {
   if (id == ButtonId.backspace)
     return Icon(
       Icons.rotate_right,
-      color: Colors.white,
+      color: Theme.of(context).primaryColorDark,
     );
 
   if (id == ButtonId.ac)
@@ -52,7 +52,7 @@ Widget setChild(String id) {
     return Text(
       id,
       style: TextStyle(
-        color: Colors.white,
+        color: Theme.of(context).primaryColorDark,
         fontSize: 22.0,
         fontWeight: FontWeight.bold,
       ),
